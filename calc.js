@@ -8,8 +8,14 @@ function addy(x,y) {
   return x+y;
 }
 
+function multiply(x,y){
+  return x*y;
+}
+
 if (addy(x,y)==z){
   console.log(x);
   console.log(y);
   console.log(z);
 } else { alert ("fail")}
+
+console.log(multiply(2,3));
